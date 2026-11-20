@@ -1,5 +1,7 @@
 import "./App.css";
 import { ProductoForm } from "./components/ProductoForm";
+import { ProductList } from "./components/ProductList";
+
 
 function App() {
   return (
@@ -10,6 +12,7 @@ function App() {
       </header>
 
       <ProductoForm />
+      <ProductList />
     </main>
   );
 }
